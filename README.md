@@ -3,6 +3,9 @@
 ## Project Overview
 A machine learning solution developed to predict customer churn for a telecommunications company experiencing a 25% churn rate. Using historical customer data, the model achieves 78% accuracy and 82% recall in identifying at-risk customers, enabling proactive retention strategies and potential revenue savings.
 
+## Link to Machine Learning App
+[ML Churn Prediction App](https://telco-churn-prediction-nkqgdudoi9jlhtwlikomfy.streamlit.app/)
+
 ## Technical Skills Demonstrated
 - **Data Analysis**: Exploratory analysis, feature engineering, statistical testing
 - **Machine Learning**: Model development, feature selection, hyperparameter tuning
@@ -25,9 +28,6 @@ A machine learning solution developed to predict customer churn for a telecommun
 ├── 📁 notebooks/
 │   ├── exploratory_analysis.ipynb      # EDA and visualization
 │   └── machine_learning.ipynb          # Model development
-├── 📁 images/
-│   ├── eda_plots/
-│   └── ml_plots/
 ├── 📁 streamlit_app/
 │   ├── app.py                          # Interactive prediction app
 │   └── requirements.txt
