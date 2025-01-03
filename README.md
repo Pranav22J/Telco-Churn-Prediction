@@ -4,7 +4,7 @@
 A machine learning solution developed to predict customer churn for a telecommunications company experiencing a 25% churn rate. Using historical customer data, the model achieves 78% accuracy and 82% recall in identifying at-risk customers, enabling proactive retention strategies and potential revenue savings.
 
 ## Link to Machine Learning App
-[Streamlit](https://telco-churn-prediction-nkqgdudoi9jlhtwlikomfy.streamlit.app/)
+[ML Churn Prediction App](https://telco-churn-prediction-nkqgdudoi9jlhtwlikomfy.streamlit.app/)
 
 ## Technical Skills Demonstrated
 - **Data Analysis**: Exploratory analysis, feature engineering, statistical testing
