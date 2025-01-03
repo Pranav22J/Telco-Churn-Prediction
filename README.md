@@ -24,25 +24,36 @@ A machine learning solution developed to predict customer churn for a telecommun
 
 ## Project Structure
 ```
-📁 telco-churn-prediction/
-├── 📁 notebooks/
-│   ├── exploratory_analysis.ipynb      # EDA and visualization
-│   └── machine_learning.ipynb          # Model development
-├── 📁 streamlit_app/
-│   ├── app.py                          # Interactive prediction app
+📁 Telco-Churn-Prediction/
+├── 📁 Data/
+│   ├── 📁 Filtered_Data/
+│   │   ├── features.csv
+│   │   ├── target.csv
+│   │   └── telco_data.csv
+│   └── 📁 Raw_Data/
+│       ├── CustomerChurn.xlsx
+│       ├── Telco_customer_churn_demographics.xlsx
+│       └── Telco_customer_churn_location.xlsx
+├── 📁 Docs/
+│   └── project-overview.md
+├── 📁 Images/
+│   ├── 📁 EDA_plots/
+│   │   ├── churn_rates_for_telco_services.png
+│   │   ├── churned_customers_per_gender.png
+│   │   ├── customer_count_and_churn_prop.png
+│   │   ├── gender_distribution_telco_dataset.png
+│   │   └── telco_customer_count_and_churn.png
+│   └── 📁 ML_plots/
+│       └── distribution_of_target_variable.png
+├── 📁 Notebooks/
+│   ├── EDA.ipynb
+│   └── ML.ipynb
+├── 📁 Streamlit_app/
+│   ├── app.py
 │   └── requirements.txt
-├── 📁 docs/
-│   └── project_overview.md             # Detailed documentation
-📁 data/
-├── 📁 raw_data/                  # Original downloaded files
-│   ├── CustomerChurn.xlsx
-│   ├── Telco_customer_churn.xlsx
-│   └── ... (other source files)
-├── 📁 filtered_data/             # Processed data
-│   ├── Telco_Data.csv           # Cleaned Data
-│   ├── features.csv             # Model features
-│   └── target.csv               # Target variable
-└── README.md                    
+├── .gitattributes
+├── .gitignore
+└── README.md                 
 ```
 
 ## Key Features
